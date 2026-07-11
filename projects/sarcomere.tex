@@ -1,0 +1,10 @@
+% projects/sarcomere.tex — Sarcomere project macro
+
+\newcommand{\SarcomereProject}{%
+  \ProjectEntry{Sarcomere — BVH Motion Parser \& Kinematic Skeleton}{June 2024 - Present}{}{C++17, Boost, CMake}
+  \begin{ResumeItemize}
+    \item Built a BVH parser and skeleton hierarchy system for motion capture data: joint transformation matrices, frame-by-frame motion extraction, kinematic tree traversal with parent-relative transforms.
+    \item Implemented forward kinematics pipeline directly relevant to robotic manipulator kinematics and motion planning — hierarchical transform propagation, joint limits, DOF management.
+    \item Modular C++17 architecture: parser, skeleton, joint, math modules; Boost.ProgramOptions CLI; CMake build system.
+  \end{ResumeItemize}%
+}

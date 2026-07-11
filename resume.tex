@@ -1,0 +1,49 @@
+% resume.tex — Main entry point
+% Select a variant to compile, or build directly.
+
+\documentclass[10pt]{article}
+
+\input{packages}
+\input{commands}
+\input{theme}
+
+% Load macro definitions.
+\input{work/herc}
+\input{work/drdo}
+\input{projects/drone}
+\input{projects/sentinalcore}
+\input{projects/runtime}
+\input{projects/vector}
+\input{projects/nec2}
+\input{projects/necromancy}
+\input{projects/sarcomere}
+\input{awards/cybersecure360}
+\input{awards/ctf}
+\input{skills/languages}
+\input{skills/robotics}
+\input{skills/embedded}
+\input{skills/graphics}
+\input{skills/systems}
+
+% Default to the general variant.
+\input{variants/general}
+
+\begin{document}
+
+\input{src/header}
+\input{src/profile}
+\input{src/education}
+
+\ResumeSection{Work Experience}
+\VariantWork
+
+\ResumeSection{Projects}
+\VariantProjects
+
+\ResumeSection{Awards}
+\VariantAwards
+
+\ResumeSection{Skills}
+\VariantSkills
+
+\end{document}

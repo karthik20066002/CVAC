@@ -1,0 +1,37 @@
+Subject: [BlackCoffeeRI: Karthik Ramanathan Lakshmanan] Robotics Engineering Intern Application
+
+Hi Black Coffee Robotics Team,
+
+I'm applying for the Robotics Engineering Intern position. As a third-year B.Tech Cybersecurity student at VIT Chennai with hands-on ROS2 Jazzy, Gazebo, and C++ systems experience, I'm excited about the opportunity to contribute to your robotic arm manipulation and motion planning work.
+
+**Key relevant experience:**
+
+• **Autonomous Photogrammetry Drone (ROS2 Jazzy, Gazebo, Gaussian Splatting)** — Building a full-stack autonomous drone: ROS2 Jazzy + Gazebo simulation for navigation/data acquisition validation before hardware deployment. Directly aligns with your simulation-first workflow for robotic arms.
+
+• **Sarcomere (C++, BVH Motion Parsing, Forward Kinematics)** — Built a BVH parser and skeleton hierarchy system with joint transformation matrices and kinematic tree traversal. The forward kinematics pipeline (hierarchical transform propagation, joint limits, DOF management) is directly relevant to manipulator kinematics and motion planning.
+
+• **SentinalCore — Linux Malware Sandbox (1st place, CyberSecure 360)** — eBPF syscall instrumentation + Linux namespace isolation for behavioral analysis. Demonstrates production-grade systems thinking, containerization, and Linux internals — transferable to robotics deployment pipelines.
+
+• **Proprietary Runtime Engineering (NDA)** — Ported legacy procedural animation/physics runtime to modern Windows/VS2022 + WebAssembly. Architected a clean-room behavioral physics engine for browser deployment. Shows ability to work with physics, animation, and cross-platform deployment.
+
+• **NASA HERC — RF Communications Analyst** — RF link budget analysis, MATLAB propagation modeling, biweekly ORR presentations. Cross-disciplinary remote collaboration and simulation-driven validation.
+
+• **Embedded Systems** — ESP32, RP2040, Arduino, FreeRTOS for sensor integration and real-time control.
+
+**Answers to your questions:**
+1. **Earliest join date:** Immediately available (final year, flexible schedule)
+2. **Full-time 6 months:** Yes, fully available for 6+ months
+3. **Full-time conversion:** Absolutely — this aligns with my 1–2 year plan to transition into production robotics software
+4. **Expected stipend:** Open / aligned with company standards for robotics interns
+
+**Video introduction:** [Google Drive/Loom link — 2 min covering background, drone project, and why BCR's manipulation/motion planning focus excites me]
+
+**Resume:** Attached as PDF (robotics-focused variant)
+
+I've worked extensively with Gazebo and ROS2 Jazzy; while I haven't used Isaac Sim or MuJoCo yet, the core concepts (USD, PhysX, MJCF) are familiar from my simulation work, and I'm eager to ramp up quickly. My background in Linux systems, C++ physics/animation, and simulation-to-hardware validation maps well to your stack.
+
+Would love to discuss how I can contribute to your robotic arm manipulation and motion planning work.
+
+Best regards,
+Karthik Ramanathan Lakshmanan
+Chennai, India | axisspri.me | linkedin.com/in/axissprime
