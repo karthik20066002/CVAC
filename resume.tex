@@ -10,6 +10,7 @@
 % Load macro definitions.
 \input{work/herc}
 \input{work/drdo}
+\input{work/xeneva}
 \input{projects/drone}
 \input{projects/sentinalcore}
 \input{projects/runtime}
@@ -25,14 +26,21 @@
 \input{skills/embedded}
 \input{skills/graphics}
 \input{skills/systems}
+\input{skills/security}
+\input{src/profile}
+\input{src/profile_c3ihub}
 
-% Default to the general variant.
-\input{variants/general}
+% Default fallback profile; variants may \renewcommand this.
+\newcommand{\VariantProfile}{\GeneralProfile}
+
+% Select a variant to compile.
+\input{variants/c3ihub}
+% \input{variants/general}
 
 \begin{document}
 
 \input{src/header}
-\input{src/profile}
+\VariantProfile
 \input{src/education}
 
 \ResumeSection{Work Experience}
