@@ -1,0 +1,10 @@
+% projects/glyphveil.tex — GlyphVeil project macro
+
+\newcommand{\GlyphveilProject}{%
+  \ProjectEntry{GlyphVeil}{2026}{Personal Research}{Python, fontTools, HarfBuzz, OpenType/GSUB}
+  \begin{ResumeItemize}
+    \item Built a representation-layer prompt-injection research framework using OpenType GSUB ligature substitution, making DOM/parser text and human-rendered text diverge via a custom font.
+    \item Implemented the encode/verify/detect pipeline: font generation via fontTools GSUB rules, HarfBuzz-based shaping verification, and a detector that flags suspicious @font-face usage and anomalous substitution tables.
+    \item Shipped a local-LLM experiment harness comparing raw-text vs.\ rendered-text ingestion paths against an OpenAI-compatible endpoint.
+  \end{ResumeItemize}%
+}
