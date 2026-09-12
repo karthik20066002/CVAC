@@ -1,0 +1,10 @@
+% projects/jaam.tex — JAAM project macro
+
+\newcommand{\JAAMProject}{%
+  \ProjectEntry{JAAM — Just Another Antenna Modeller}{June 2025 - Present}{Personal Project}{Python, ANTLR, openEMS, Palace, Meep, SCUFF-EM}
+  \begin{ResumeItemize}
+    \item Built a declarative antenna language with a traced compiler: source~$\rightarrow$~ANTLR AST~$\rightarrow$~unit-normalized geometry~$\rightarrow$~typed IR~$\rightarrow$~optimization passes~$\rightarrow$~solver backend.
+    \item Supports multiple solver backends: openEMS (FDTD), Palace (FEM), Meep (FDTD), and SCUFF-EM (BEM), all writing the same versioned result bundle.
+    \item Developed JAAM Studio, a native Linux visualization workspace with real-time inspection and solver controls.
+  \end{ResumeItemize}%
+}
