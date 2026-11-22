@@ -3,8 +3,8 @@
 \newcommand{\JudgeProject}{%
   \ProjectEntry{Code Execution Engine (CEE)}{July 2025 - Present}{Personal Project}{Go, Docker Swarm, gVisor, Redis}
   \begin{ResumeItemize}
-    \item Built a distributed, stateless, language-agnostic platform for safely executing untrusted user code inside secure sandboxes at scale.
-    \item Leveraged Docker Swarm for micro-service orchestration, gVisor for kernel-level sandboxing, and Redis for job queuing and result storage.
-    \item Achieved language flexibility across Python, Node, and Go with FMEA-driven failure isolation and strong security guarantees.
+    \item Distributed, stateless service that runs untrusted code inside sandboxes, in any language.
+    \item Docker Swarm runs the services, gVisor sandboxes each job at the kernel level, and Redis holds the job queue and results.
+    \item Runs Python, Node and Go; an FMEA pass decided how a failure stays contained to one job.
   \end{ResumeItemize}%
 }

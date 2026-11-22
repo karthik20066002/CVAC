@@ -1,11 +1,11 @@
 % projects/borealis.tex — Borealis project macro
 
 \newcommand{\BorealisProject}{%
-  \ProjectEntry{Borealis — Real-Time Kernel for ESP32}{June 2026 - Present}{Personal Project}{C17, CMake, Xtensa, FreeRTOS}
+  \ProjectEntry{Borealis: Real-Time Kernel for ESP32}{June 2026 - Present}{Personal Project}{C17, CMake, Xtensa, FreeRTOS}
   \begin{ResumeItemize}
-    \item Designed a small, Xeneva-derived real-time kernel for the dual-core Xtensa ESP32 (ESP32-WROOM-32, NodeMCU-32S), targeting 4 MiB flash with no PSRAM.
-    \item Implemented fixed-priority scheduling (0--15), 1 kHz tick, 5-tick quantum, 16 tasks with caller-supplied stacks, and pointer-free 64-byte IPC messages.
-    \item Built mutex recursion with priority inheritance, counting semaphores, event flags, bounded queues, timers, and ISR-safe nonblocking operations.
-    \item Developed host-tested kernel substrate with CMakePresets-based build, board profiles, and ESP32 bootstrap scripts.
+    \item A small real-time kernel for the dual-core Xtensa ESP32 (ESP32-WROOM-32, NodeMCU-32S), derived from Xeneva's and sized for 4 MiB flash with no PSRAM.
+    \item Fixed-priority scheduler with 16 levels (0--15), a 1 kHz tick and a 5-tick quantum; 16 tasks on caller-supplied stacks; pointer-free 64-byte IPC messages.
+    \item Recursive mutexes with priority inheritance, counting semaphores, event flags, bounded queues, timers, and non-blocking ISR-safe calls.
+    \item The kernel core is tested on the host; builds use CMake presets with per-board profiles and ESP32 bootstrap scripts.
   \end{ResumeItemize}%
 }

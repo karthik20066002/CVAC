@@ -1,10 +1,10 @@
 % projects/mqttaton.tex — MQTTaton project macro
 
 \newcommand{\MQTTatonProject}{%
-  \ProjectEntry{MQTTaton — Zero-Dependency MQTT v5 Broker}{August 2026 - Present}{Personal Project}{Go, Zero-Dependency}
+  \ProjectEntry{MQTTaton: Zero-Dependency MQTT v5 Broker}{August 2026 - Present}{Personal Project}{Go, Zero-Dependency}
   \begin{ResumeItemize}
-    \item Built a zero-dependency MQTT v5 broker written entirely in Go using only the standard library, producing a single standalone binary.
-    \item Implemented the full MQTT v5 protocol from scratch with no third-party dependencies, replacing libraries like paho.mqtt.golang.
-    \item Designed for supply-chain safety and minimal attack surface — suitable for constrained and security-focused environments.
+    \item MQTT v5 broker in Go using only the standard library; ships as a single binary.
+    \item The whole MQTT v5 protocol written from scratch, with no paho or other third-party code.
+    \item Zero dependencies means no upstream supply chain to audit, which matters on constrained and security-sensitive deployments.
   \end{ResumeItemize}%
 }

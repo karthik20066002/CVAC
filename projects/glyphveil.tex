@@ -3,8 +3,8 @@
 \newcommand{\GlyphveilProject}{%
   \ProjectEntry{GlyphVeil}{2026}{Personal Research}{Python, fontTools, HarfBuzz, OpenType/GSUB}
   \begin{ResumeItemize}
-    \item Built a representation-layer prompt-injection research framework using OpenType GSUB ligature substitution, making DOM/parser text and human-rendered text diverge via a custom font.
-    \item Implemented the encode/verify/detect pipeline: font generation via fontTools GSUB rules, HarfBuzz-based shaping verification, and a detector that flags suspicious @font-face usage and anomalous substitution tables.
-    \item Shipped a local-LLM experiment harness comparing raw-text vs.\ rendered-text ingestion paths against an OpenAI-compatible endpoint.
+    \item Prompt-injection research: a custom font's OpenType GSUB ligatures make the text a parser reads differ from the text a person sees.
+    \item Encode, verify, detect: fontTools generates the GSUB rules, HarfBuzz checks the shaping, and a detector flags suspicious @font-face use and odd substitution tables.
+    \item A local-LLM harness compares how a model handles the raw text against the rendered text, over an OpenAI-compatible endpoint.
   \end{ResumeItemize}%
 }
